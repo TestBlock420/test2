@@ -1,0 +1,15 @@
+syntax = "proto3";
+package daodemo.daodemo;
+
+import "amino/amino.proto";
+import "gogoproto/gogo.proto";
+
+option go_package = "daodemo/x/daodemo/types";
+
+// Params defines the parameters for the module.
+message Params {
+  option (amino.name) = "daodemo/x/daodemo/Params";
+  option (gogoproto.equal) = true;
+
+  
+}
