@@ -29,3 +29,8 @@ client:
 validators:
 - name: alice
   bonded: 100000000stake
+genesis:
+  app_state:
+    staking:
+      params:
+        bond_denom: "denom"
